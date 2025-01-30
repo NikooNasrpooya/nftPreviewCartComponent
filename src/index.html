@@ -1,36 +1,47 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
-  <title>Frontend Mentor | NFT preview card component</title>
+  <link href="./output.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+  <title>NFT preview card component</title>
 
 </head>
-<body>
-  <div class="border">
+
+<body class="flex justify-center h-screen items-center text-white">
+  <div class=" rounded bg-blue-900 p-8 ">
+    <div class="">
+      <div class="w-80 rounded-2xl overflow-hidden">
+        <img src="../images/image-equilibrium.jpg" alt="image-equilibrium">
+      </div>
+
+
+    </div>
+
     <div>
-      <img src="images/image-equilibrium.jpg" alt="image-equilibrium">
+      <h1 class=" pt-4 pb-4 text-white text-2xl ">Equilibrium #3429</h1>
+      <div class="text-white w-60 text-sm">Our Equilibrium collection
+        promotes balance and calm.</div>
+    </div>
+    <div class="flex pt-8 pb-2 border-b-2 items-center border-b-gray-300">
+      <i class="fa-brands fa-ethereum pr-1"></i>
+      <h3 class="font-bold text-cyan-500 ml-1">0.041 ETH</h3>
+      <i class="fa-regular fa-clock ml-30"></i>
+      <h3 class="text-sm ml-2">3 days left</h3>
+    </div>
+    <div class="pt-4 flex items-center ">
+      <img class="w-10 mr-2" src="../images/image-avatar.png" alt="">
+      Creation of Jules Wyvern
     </div>
 
   </div>
 
-  <div>
-    <h1>Equilibrium #3429</h1>
-    <span>Our Equilibrium collection promotes balance and calm.</span>
-  </div> 
 
-  <div>0.041 ETH</div>
-  <div>3 days left</div>
 
-  
-  <div>
-    <img src="image/image-avatar.png" alt="">
-    Creation of Jules Wyvern
-  </div>
-  
-  
 </body>
+
 </html>
